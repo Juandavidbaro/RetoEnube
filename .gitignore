@@ -1,0 +1,39 @@
+# Entorno virtual
+venv/
+.env
+*.env
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Archivos de bases de datos vectoriales (Chroma)
+chroma-db/
+chroma/
+
+# Configuración de VSCode
+.vscode/
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos creados por herramientas
+pip-log.txt
+pytest_cache/
+.cache/
+coverage.*
+htmlcov/
+
+# Archivos de test
+*.cover
+*.pyc
+*.pkl
+
+# Archivos de Docker
+*.tar

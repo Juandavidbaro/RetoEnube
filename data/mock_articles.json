@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Apple lanza nueva MacBook con procesador M4",
+    "content": "La compañía tecnológica presentó su nueva línea de portátiles que promete mayor rendimiento y autonomía gracias al chip M4 de desarrollo propio.",
+    "category": "tecnologia"
+  },
+  {
+    "id": "2",
+    "title": "Descubren agua en una luna de Júpiter",
+    "content": "Científicos de la NASA confirmaron la presencia de agua líquida bajo la superficie de Europa, una de las lunas de Júpiter, lo que refuerza la posibilidad de vida extraterrestre.",
+    "category": "ciencia"
+  },
+  {
+    "id": "3",
+    "title": "Nuevo tratamiento para la diabetes logra resultados prometedores",
+    "content": "Un nuevo fármaco ha mostrado mejorar significativamente el control glucémico en pacientes con diabetes tipo 2 en ensayos clínicos recientes.",
+    "category": "salud"
+  },
+  {
+    "id": "4",
+    "title": "Reforma educativa propone nuevas metodologías de aprendizaje",
+    "content": "El ministerio de educación presentó una reforma que busca modernizar el currículo escolar con un enfoque más práctico y tecnológico.",
+    "category": "educacion"
+  },
+  {
+    "id": "5",
+    "title": "Crecimiento económico impulsa nuevas inversiones en el país",
+    "content": "Las empresas locales reportan un aumento en las inversiones gracias a las políticas económicas favorables y la estabilidad del mercado.",
+    "category": "negocios"
+  },
+  {
+    "id": "6",
+    "title": "Lionel Messi bate otro récord en la MLS",
+    "content": "El astro argentino marcó su gol número 30 en una sola temporada, convirtiéndose en el máximo goleador histórico del Inter Miami.",
+    "category": "deportes"
+  },
+  {
+    "id": "7",
+    "title": "Netflix lanza serie basada en la vida de Frida Kahlo",
+    "content": "La producción recrea momentos clave en la vida de la artista mexicana y ya es tendencia en más de 50 países.",
+    "category": "entretenimiento"
+  },
+  {
+    "id": "8",
+    "title": "Gobierno anuncia nuevo plan económico para 2025",
+    "content": "El presidente presentó una serie de reformas fiscales y estímulos a la inversión para impulsar el crecimiento económico durante el próximo año.",
+    "category": "politica"
+  },
+  {
+    "id": "9",
+    "title": "Investigadores alertan sobre el impacto del cambio climático",
+    "content": "Tras registrar temperaturas anómalas en el Ártico, expertos advierten sobre las consecuencias del calentamiento global en la fauna y flora de la región.",
+    "category": "medio-ambiente"
+  },
+  {
+    "id": "10",
+    "title": "Economía de Brasil crece un 2.1% en el primer trimestre",
+    "content": "El repunte se debe al aumento de exportaciones y a una mayor inversión en infraestructura pública, según el informe del Banco Central.",
+    "category": "economia"
+  }
+]
