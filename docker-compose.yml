@@ -25,19 +25,19 @@ services:
       - ./backend:/app
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
-  frontend:
-    build:
-      context: ./frontend
-    ports:
-      - "3000:3000"
-    depends_on:
-      - backend
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
-    environment:
-      NEXT_PUBLIC_API_URL: http://backend:8000  
-    command: npm run dev
+  #  frontend:
+#    build:
+#      context: ./frontend  # Construye la imagen Docker desde el directorio "frontend"
+#    ports:
+#      - "3000:3000"  # Puerto local expuesto para la app Next.js
+#    depends_on:
+#      - backend  # Espera a que el backend esté activo
+#    volumes:
+#      - ./frontend:/app  # Sincronización en tiempo real del código fuente
+#      - /app/node_modules  # Evita conflictos entre dependencias locales y en el contenedor
+#    environment:
+#      NEXT_PUBLIC_API_URL: http://backend:8000  # URL del backend para llamadas desde el frontend
+#    command: npm run dev  # Inicia la app en modo desarrollo
 
 volumes:
   qdrant_data:
